@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Bigger is Smaller</title>
+        <style>
+            body {
+                width: 250%;
+                margin: 0;
+                padding: 0;
+                font-family: sans-serif;
+                font-size: 16px;
+            }
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+            li {
+                width: 20%;
+                float: left;
+            }
+            img {
+                display: block;
+                width: 100%;
+            }
+            dt {
+                font-weight: bold;
+            }
+            dd {
+                margin: 10px 0;
+            }
+            .details {
+                padding: 5px;
+            }
+            .shamelessplug {
+                position: fixed;
+                bottom: 0;
+                padding: 10px 0;
+                width: 100%;
+                text-align: center;
+                background-color: #fff;
+            }
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li>
+                <div>
+                    <img src="orig.jpg">
+                </div>
+                <div class="details">
+                    <h1>Original</h1>
+                    <dl>
+                        <dt>Dimensions:</dt><dd>2560 × 1440 pixels</dd>
+                        <dt>Size:</dt><dd>1.1M</dd>
+                    </dl>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="800_80.jpg">
+                </div>
+                <div class="details">
+                    <h1>Smaller - Baseline</h1>
+                    <dl>
+                        <dt>Dimensions:</dt><dd>800 × 450 pixels</dd>
+                        <dt>Size:</dt><dd>116K</dd>
+                        <dt>JPG Quality:</dt><dd>80</dd>
+                    </dl>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="1600_80.jpg">
+                </div>
+                <div class="details">
+                    <h1>Bigger - 400% larger</h1>
+                    <dl>
+                        <dt>Dimensions:</dt><dd>1600 × 900 pixels</dd>
+                        <dt>Size:</dt><dd>417K</dd>
+                        <dt>JPG Quality:</dt><dd>80</dd>
+                    </dl>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="1600_10.jpg">
+                </div>
+                <div class="details">
+                    <h1>Bigger - 40.5% Smaller - SUCCESS!</h1>
+                    <dl>
+                        <dt>Dimensions:</dt><dd>1600 × 900 pixels</dd>
+                        <dt>Size:</dt><dd>69K</dd>
+                        <dt>JPG Quality:</dt><dd>10</dd>
+                    </dl>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="800_10.jpg">
+                </div>
+                <div class="details">
+                    <h1>Smaller - lower quality - ICK!</h1>
+                    <dl>
+                        <dt>Dimensions:</dt><dd>800 × 450 pixels</dd>
+                        <dt>Size:</dt><dd>21K</dd>
+                        <dt>JPG Quality:</dt><dd>10</dd>
+                    </dl>
+                </div>
+            </li>
+        </ul>
+
+        <div class="shamelessplug">
+            Brought to you by <a href="http://useallfive.com/?utmr=bigger-is-better">http://useallfive.com/</a>
+        </div>
+
+    </body>
+</html>
